@@ -4,10 +4,55 @@
 @import "reset";
 @import "bourbon";
 
+
+.logo{
+  color: #313F58;
+  @include outer-container;
+  img{
+    @include span-columns(2);
+    margin-right: 0;
+  }
+  .text{
+    @include span-columns(10);
+    padding-top: 0.7em;
+    font-size: 4.5em;
+  }
+}
+
+section .title{
+  color: #313F58;
+}
+
+.about{
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  p{
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+  }
+  h3{
+    font-size: 2.5em;
+  }
+}
+
+.join-us{
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  p{
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+  }
+  h3{
+    font-size: 2.5em;
+  }
+}
+
 body {
-  background: #d4d4d4 url("../images/background.png");
-  text-align: center;
-  font-family: sans-serif; }
+  background: #CCD0D6;
+  text-align: left;
+  font-family: sans-serif;
+  @include outer-container;
+}
 
 h1 {
   color: rgba(0, 0, 0, .3);
