@@ -4,9 +4,38 @@
 @import "reset";
 @import "bourbon";
 
+$important_text_color: #313F58;
+
+.small-button{
+  padding: 0.25em;
+  border-radius: 0.25em;
+  color: white;
+  background: $important_text_color;
+}
+
+nav{
+  @include outer-container;
+  padding-top: 0.5em;
+  color: $important_text_color;
+  ul{
+    @include shift(10);
+    @include span-columns(2);
+    display: inline-block;
+    list-style: none;
+    li{
+      text-align: center;
+      @include span-columns(6);
+    }
+  }
+  a{ @extend .small-button; }
+}
+
+.list li{
+  list-style: square inside;
+}
 
 .logo{
-  color: #313F58;
+  color: $important_text_color;
   @include outer-container;
   img{
     @include span-columns(2);
@@ -20,25 +49,12 @@
 }
 
 section .title{
-  color: #313F58;
+  color: $important_text_color;
 }
 
-.about{
-  margin-top: 1.5em;
+.join-us, .about, .events{
   margin-bottom: 0.5em;
-  p{
-    padding-left: 0.75em;
-    padding-right: 0.75em;
-  }
-  h3{
-    font-size: 2.5em;
-  }
-}
-
-.join-us{
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
-  p{
+  p, li{
     padding-left: 0.75em;
     padding-right: 0.75em;
   }
@@ -64,6 +80,11 @@ h1 {
   background: url("../images/middleman.png") no-repeat center 100px;
   padding: 350px 0 10px;
   margin: 0; }
+
+h5{
+  font-size: 1.25em;
+  color: $important_text_color;
+}
 
 .doc {
   font-size: 14px;
