@@ -50,6 +50,7 @@ nav{
 
 section .title{
   color: $important_text_color;
+  a:link, a:visited {color: $important_text_color;}
 }
 
 .join-us, .about, .events{
