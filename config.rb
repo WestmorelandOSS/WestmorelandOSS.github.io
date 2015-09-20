@@ -59,6 +59,14 @@ activate :livereload
 
 activate :search_engine_sitemap
 
+ready do
+  sitemap.resources.each do |res|
+    if res.path.include?(".html")
+      proxy "mobile/#{res.path}", res.path
+    end
+  end
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
