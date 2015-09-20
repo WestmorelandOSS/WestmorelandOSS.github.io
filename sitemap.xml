@@ -18,4 +18,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>http://westmorelandoss.com/mobile/events.html</loc>
+    <lastmod>2015-09-19T21:05:42-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://westmorelandoss.com/mobile/google9848fe297b119d3d.html</loc>
+    <lastmod>2015-09-11T01:05:55-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://westmorelandoss.com/mobile/</loc>
+    <lastmod>2015-09-18T09:07:05-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
