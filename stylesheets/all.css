@@ -620,6 +620,20 @@ picture {
   background: #313F58; }
 
 /* line 16, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+.header-base, .h2-base, .h3-base, .join-us h2, .about h2, .events h2, .join-us h3, .about h3, .events h3 {
+  color: #313F58;
+  margin-bottom: 0.5em;
+  font-style: underline; }
+
+/* line 22, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+.h2-base {
+  font-size: 3em; }
+
+/* line 26, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+.h3-base, .join-us h2, .about h2, .events h2, .join-us h3, .about h3, .events h3 {
+  font-size: 2.5em; }
+
+/* line 31, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
 nav {
   max-width: 68em;
   margin-left: auto;
@@ -631,7 +645,7 @@ nav {
     clear: both;
     content: "";
     display: table; }
-  /* line 20, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+  /* line 35, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
   nav ul {
     margin-left: 85.29804%;
     float: left;
@@ -643,7 +657,7 @@ nav {
     /* line 89, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/neat/grid/_span-columns.scss */
     nav ul:last-child {
       margin-right: 0; }
-    /* line 25, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+    /* line 40, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
     nav ul li {
       text-align: center;
       float: left;
@@ -654,11 +668,11 @@ nav {
       nav ul li:last-child {
         margin-right: 0; }
 
-/* line 33, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+/* line 48, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
 .list li {
   list-style: square inside; }
 
-/* line 37, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+/* line 52, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
 .logo {
   color: #313F58;
   max-width: 68em;
@@ -669,7 +683,7 @@ nav {
     clear: both;
     content: "";
     display: table; }
-  /* line 40, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+  /* line 55, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
   .logo img {
     float: left;
     display: block;
@@ -679,7 +693,7 @@ nav {
     /* line 89, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/neat/grid/_span-columns.scss */
     .logo img:last-child {
       margin-right: 0; }
-  /* line 44, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+  /* line 59, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
   .logo .text {
     float: left;
     display: block;
@@ -691,25 +705,25 @@ nav {
     .logo .text:last-child {
       margin-right: 0; }
 
-/* line 51, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+/* line 66, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
 section .title {
   color: #313F58; }
-  /* line 53, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+  /* line 68, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
   section .title a:link, section .title a:visited {
     color: #313F58; }
 
-/* line 56, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+/* line 71, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
 .join-us, .about, .events {
   margin-bottom: 0.5em; }
-  /* line 58, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+  /* line 73, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
   .join-us p, .join-us li, .about p, .about li, .events p, .events li {
     padding-left: 0.75em;
     padding-right: 0.75em; }
-  /* line 62, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
-  .join-us h3, .about h3, .events h3 {
-    font-size: 2.5em; }
+  /* line 77, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+  .join-us h2, .about h2, .events h2 {
+    text-decoration: underline; }
 
-/* line 67, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+/* line 86, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
 body {
   background: #CCD0D6;
   text-align: left;
@@ -723,7 +737,7 @@ body {
     content: "";
     display: table; }
 
-/* line 74, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+/* line 93, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
 h1 {
   color: rgba(0, 0, 0, 0.3);
   font-weight: bold;
@@ -735,17 +749,17 @@ h1 {
   padding: 350px 0 10px;
   margin: 0; }
 
-/* line 85, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+/* line 104, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
 h5 {
   font-size: 1.25em;
   color: #313F58; }
 
-/* line 90, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+/* line 109, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
 .doc {
   font-size: 14px;
   margin: 0; }
 
-/* line 93, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+/* line 112, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
 .doc:before,
 .doc:after {
   opacity: .2;
@@ -754,15 +768,15 @@ h5 {
   position: relative;
   content: "•"; }
 
-/* line 100, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+/* line 119, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
 .doc a {
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 102, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+/* line 121, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
 .doc a:hover {
   color: #666; }
 
-/* line 105, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
+/* line 124, /Users/samuraipanzer/WOSS/WestmorelandOSS.github.io/source/stylesheets/all.scss */
 .welcome {
   -webkit-animation-name: welcome;
   -webkit-animation-duration: .9s; }
