@@ -19,6 +19,12 @@ $important_text_color: #313F58;
   font-style: underline;
 }
 
+h5{
+  .slides, .video{
+    margin-bottom: 1em;
+  }
+}
+
 .h2-base{
   @extend .header-base;
   font-size: 3em;
